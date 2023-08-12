@@ -11,7 +11,8 @@ import SwiftUI
 struct NeumorphicProgressBarsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MusicPlayerView()
+                .preferredColorScheme(.dark)
         }
     }
 }
